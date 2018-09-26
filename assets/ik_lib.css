@@ -26,8 +26,14 @@ p {
   margin: 10px 0;
 }
 a {
-  color: #f76;
+  border-bottom: 1px solid rgba(0,10,255,0.3);
+  color: #000aff;
   text-decoration: none;
+  transition: color 0.2s linear, border-bottom-color 0.2s linear;
+}
+a:hover {
+  border-bottom-color: currentColor;
+  color: #000694;
 }
 input[type=text] {
   padding: 8px 12px;
