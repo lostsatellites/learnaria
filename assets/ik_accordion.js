@@ -112,6 +112,7 @@
 
 		} else { // toggle current panel depending on the state
 
+			$me.toggleClass('expanded');
 			$me.attr('aria-expanded', function (i, attr) { // Toggle the button aria-expanded attribute
 				return attr == 'true' ? 'false' : 'true'
 			});
