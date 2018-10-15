@@ -422,7 +422,7 @@ button[disabled]:focus {
 }
 .ik_menu {
   margin: 10px 0;
-  background-color: #f76;
+  background-color: #000aff;
   line-height: 1;
 }
 .ik_menu ul {
@@ -443,7 +443,7 @@ button[disabled]:focus {
 .ik_menu ul li:hover,
 .ik_menu ul li:focus,
 .ik_menu ul li.expanded {
-  background-color: #ff8e80;
+  background-color: #000694;
 }
 .ik_menu ul li.expanded > ul {
   display: flex;
@@ -470,7 +470,7 @@ button[disabled]:focus {
   position: absolute;
   width: 200px;
   height: auto;
-  background-color: #ff8e80;
+  background-color: #000aff;
 }
 .ik_menu ul li ul li {
   -webkit-box-shadow: inset -1px -1px 0 rgba(0, 0, 0, 0.25), inset 1px 1px 0 rgba(255, 255, 255, 0.25);
@@ -480,7 +480,7 @@ button[disabled]:focus {
 .ik_menu ul li ul li:hover,
 .ik_menu ul li ul li:focus,
 .ik_menu ul li ul li.expanded {
-  background-color: #f76;
+  background-color: #000694;
 }
 .ik_menu ul li ul li.expandable > a {
   box-sizing: border-box;
