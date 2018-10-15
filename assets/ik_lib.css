@@ -573,7 +573,7 @@ button[disabled]:focus {
 }
 .ik_sortable ul li:hover,
 .ik_sortable ul li:focus {
-  background-color: #f76;
+  background-color: #000aff;
   color: #fff;
 }
 .ik_sortable .dragover {
