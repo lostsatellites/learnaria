@@ -278,8 +278,8 @@ button[disabled]:focus {
 .ik_tabs .ik_tabbar li {
   margin: 0 2px 1px 0;
   padding: 10px 15px;
-  border: 1px solid #ff4a33;
-  background-color: #f76;
+  border: 1px solid #000aff;
+  background-color: #000aff;
   color: #fff;
   cursor: pointer;
   -webkit-border-top-left-radius: 6px;
